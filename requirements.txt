@@ -5,7 +5,6 @@ Pillow
 gdown
 pydrive2
 matplotlib
-gdown
-sklearn
+scikit-learn
 torch
 seaborn
