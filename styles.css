@@ -1,0 +1,86 @@
+/* styles.css */
+[data-testid="stSidebar"] {
+    background-color: #2f2f2f;
+}
+
+[data-testid="stSidebar"] .markdown-text-container {
+    color: white !important;
+}
+
+[data-testid="stSidebar"] button {
+    background-color: #1a1919 !important;
+    color: white !important;
+    border: none;
+    width: 100%;
+    padding: 0.5em 1em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+[data-testid="stSidebar"] button:hover {
+    background-color: #444 !important;
+}
+
+html, body, .stApp {
+    background-color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white !important;
+    height: 100%;
+    width: 100%;
+}
+
+/* Optional: Entferne Scrollbalken-Rand */
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.start-page h1,
+.start-page h2,
+.start-page h3,
+.start-page h4,
+.start-page h5,
+.start-page h6,
+.start-page p,
+.start-page li,
+.start-page div,
+.start-page span,
+.start-page label {
+    color: white !important;
+}
+
+/* Kamera-Seite */
+.camera-container {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.camera-container h2 {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.stButton > button {
+    background-color: #1a1919 !important;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 0.5em 1em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background-color: #444 !important;
+}
