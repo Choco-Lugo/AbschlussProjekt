@@ -9,3 +9,4 @@ scikit-learn
 torch
 seaborn
 streamlit-webrtc
+imbalanced-learn
